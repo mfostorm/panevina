@@ -11,6 +11,10 @@ namespace Lab1_Task4
     {
         static void Main(string[] args)
         {
+            // кодировка UTF-8, чтобы русские буквы правильно отображались в консоли
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+
             Console.WriteLine("Задание 4. Удаление знаков препинания");
             Console.WriteLine(new string('-', 45));
 

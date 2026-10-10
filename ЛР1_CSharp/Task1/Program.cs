@@ -11,6 +11,10 @@ namespace Lab1_Task1
     {
         static void Main(string[] args)
         {
+            // кодировка UTF-8, чтобы русские буквы правильно отображались в консоли
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+
             Console.WriteLine("Лабораторная работа №1. Задание 1");
             Console.WriteLine("Выполнила: Паневина С.Е., группа СИд-023");
             Console.WriteLine(new string('-', 40));
