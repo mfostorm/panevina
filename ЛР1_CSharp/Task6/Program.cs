@@ -11,10 +11,6 @@ namespace Lab1_Task6
     {
         static void Main(string[] args)
         {
-            // кодировка UTF-8, чтобы русские буквы правильно отображались в консоли
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.InputEncoding = System.Text.Encoding.UTF8;
-
             while (true)
             {
                 Console.WriteLine();

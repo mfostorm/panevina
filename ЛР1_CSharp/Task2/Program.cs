@@ -11,10 +11,6 @@ namespace Lab1_Zadanie2
     {
         static void Main(string[] args)
         {
-            // кодировка UTF-8, чтобы русские буквы правильно отображались в консоли
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.InputEncoding = System.Text.Encoding.UTF8;
-
             Console.WriteLine("задание 2. Дальность полёта");
 
             double v = ReadDouble("введите начальную скорость v (м/с, >= 0): ", min: 0);
